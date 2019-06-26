@@ -1,4 +1,4 @@
-# stencil-click-outside
+# lit-element-click-outside
 
 ## What is it?
 
