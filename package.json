@@ -1,0 +1,35 @@
+{
+  "name": "lit-element-click-outside",
+  "version": "1.0.0",
+  "description": "@clickOutside decorator for Lit Element to call annotated method when component is scrolled to viewport",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "lit-element": "2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrvis/lit-element-click-outside.git"
+  },
+  "author": "Michał Kaliszewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarrvis/lit-element-click-outside/issues"
+  },
+  "homepage": "https://github.com/jarrvis/lit-element-click-outside",
+  "keywords": [
+    "lit element",
+    "decorator",
+    "click outside",
+    "IntersectionObserver"
+  ]
+}
